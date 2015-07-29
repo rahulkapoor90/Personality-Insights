@@ -14,4 +14,5 @@ personality_insights.profile({
             console.log('error:', err);
         else
             console.log(JSON.stringify(response, null, 2));
+            console.log('Success');
     });
